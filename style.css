@@ -1,5 +1,49 @@
-.container{
-    background: white;
+body{
+    background: #111929;
+    font-family: Arial;
+}
+
+.profile-header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    
+}
+
+.bold{
+    margin-left: 1px;
+    font-size: 30px;
+}
+
+.h1{
+    text-align: center;
     color: white;
-    padding: 1rem;
+}
+
+hr.hr{
+    margin-bottom: 3rem;
+}
+
+.text{
+    font-size: 20px;
+}
+
+.msg{
+    font-family: Arial;
+    color: white;
+    max-width: 500px;
+}
+
+.image{
+    background: #C6CFD4;
+    text-align: center;
+    width: 440px;
+    height: 440px;
+    border-radius: 20px;
+}
+
+.image img{
+    height: 440px;
 }
